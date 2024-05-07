@@ -19,11 +19,30 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
 
 ## Project Start
 
+```bash
+# install node_modules
 pnpm install
+
+# start project
 npm run dev
+```
 
 ## Project Build
 
-1. development environment build command -> npm run build:dev
-2. test environment build command -> npm run build:test
-3. product environment build command -> npm run build:prod
+> Development environment build command
+
+```bash
+npm run build:dev
+```
+
+> Test environment build command
+
+```bash
+npm run build:test
+```
+
+> Product environment build command
+
+```bash
+npm run build:prod
+```
